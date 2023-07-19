@@ -4,6 +4,13 @@ import { Button } from './ui/button'
 import { ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
 import header from "@/assets/header.webp"
+import Feature1 from "../assets/Featured1.webp"
+import Feature2 from "../assets/Featured2.webp"
+import Feature3 from "../assets/Featured3.webp"
+import Feature4 from "../assets/Featured4.webp"
+
+
+
 
 
 const Hero = () => {
@@ -24,6 +31,13 @@ const Hero = () => {
                         <Button>
                             <ShoppingCart className="mr-2 h-4 w-4" /> Start Shopping
                         </Button>
+                    </div>
+                    <div className='flex mt-5 gap-x-4 '>
+                        <Image src={Feature1} alt="feature1"/>
+                        <Image src={Feature2} alt="feature2"/>
+                        <Image src={Feature3} alt="feature3"/>
+                        <Image src={Feature4} alt="feature4"/>
+
                     </div>
 
                 </div>
